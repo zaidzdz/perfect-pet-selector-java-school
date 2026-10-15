@@ -1,5 +1,8 @@
-import java.util.Scanner;
+// Made by Zaid Zamani
+// 10/15/26
+// Gives you your perfect pet based on a few things
 
+import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
@@ -41,7 +44,7 @@ class Main {
       pet = "pony";
     }
 
-    if (isConsonant(name) && favColor.equals("blue") && !(favSeason.equals("summer") || !favSeason.equals("fall")) && pet.equals("ostrich ")) {
+    if (isConsonant(name) && favColor.equals("blue") && !(favSeason.equals("summer") || favSeason.equals("fall")) && pet.equals("ostrich")) {
       pet = "axolotl";
     }
 
@@ -49,6 +52,8 @@ class Main {
       pet = "rock";
     }
 
+    System.out.println("-------------------------------------------");
+    //wanted to tryout prinf
     System.out.printf("Your perfect pet is %s \n",pet);
     scanner.close();
   }
