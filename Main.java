@@ -44,7 +44,7 @@ class Main {
       pet = "pony";
     }
 
-    if (isConsonant(name) && favColor.equals("blue") && !(favSeason.equals("summer") || favSeason.equals("fall")) && pet.equals("ostrich")) {
+    if (isConsonant(name) && favColor.equals("blue") && !(favSeason.equals("summer") || favSeason.equals("fall")) && !pet.equals("ostrich")) {
       pet = "axolotl";
     }
 
